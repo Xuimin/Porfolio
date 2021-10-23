@@ -1,0 +1,152 @@
+/* NAVBAR */
+nav {
+    border-top: 1px solid black;
+    width: 100%;
+}
+#top-nav .rog-logo2 {
+    opacity: 0; 
+}
+
+#top-nav .logo-container:hover .rog-logo2{
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+#top-nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#top-nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+#real-nav .logoname2 {
+    opacity: 0;
+}
+
+#real-nav .logoname1:hover {
+    opacity: 0;
+}
+
+#real-nav .logoname2:hover {
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+#real-nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 5px;
+}
+
+#real-nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 5px;
+}
+
+/* HEADER */
+header img {
+    height: 80vh;
+}
+
+/* EXTRA HEADERS */
+header {
+    height: 777px;
+}
+
+.carousel, .carousel-inner, .carousel-item {
+    height: 100%;
+}
+
+.carousel-inner .carousel-item:first-child {
+    background-image: url("../Image/Banner1.jpg");
+    background-size: 2560px;
+    background-position: center top;
+}
+
+.carousel-inner .carousel-item:nth-child(2) {
+    background-image: url("../Image/Banner2.jpg");
+    background-size: 2560px;
+    background-position: center top;
+}
+
+.carousel-inner .carousel-item:nth-child(3) {
+    background-image: url("../Image/Banner3.jpg");
+    background-size: 2560px;
+    background-position: center top;
+}
+
+.carousel-inner .carousel-item:last-child {
+    background-image: url("../Image/Banner4.jpg");
+    background-size: 2560px;
+    background-position: center top;
+}
+
+/* MAIN SECTION */
+.features [class*="feature"] {
+    height: 500px;
+}
+
+.features .feature1 {
+    background: url("../Image/1.jpg");
+    background-size: 1262px;
+    background-position: bottom;
+}
+
+.features .feature2 {
+    background: url("../Image/2.jpg");
+    background-size: 1262px;
+    background-position: bottom;
+}
+
+.features .feature3 {
+    background: url("../Image/3.jpg");
+    background-size: 1262px;
+    background-position: bottom;
+}
+
+.features .feature4 {
+    background: url("../Image/4.jpg");
+    background-size: 1262px;
+    background-position: bottom;
+}
+
+@media(max-width: 1200px) {
+    .feature1, .feature2, .feature3, .feature4 {
+        background-size: 622px;
+    }
+    header {height: 698px}
+    .carousel .carousel-item:first-child,
+    .carousel .carousel-item:nth-child(2),
+    .carousel .carousel-item:nth-child(3),
+    .carousel .carousel-item:last-child {
+        background-size: cover;
+    }
+}
+
+@media(max-width:768px) {
+    header {height: 548px}
+    .carousel .carousel-item:first-child,
+    .carousel .carousel-item:nth-child(2),
+    .carousel .carousel-item:nth-child(3),
+    .carousel .carousel-item:last-child {
+        background-size: 730px;
+    }
+}
+
+/* FOOTER */
+footer {
+    background-color: #f5f5f5;
+}

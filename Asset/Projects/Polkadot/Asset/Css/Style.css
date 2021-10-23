@@ -1,0 +1,209 @@
+/* NAVBAR */
+nav #menu a {
+    text-decoration: none;
+    color: black;
+}
+
+nav #menu a:hover {
+    color: #E6007A;
+}
+
+.pink {
+    color:#E6007A;
+}
+
+button {
+    color: #E6007A;
+    background-color: transparent;
+    border: 1px solid #E6007A;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+
+button:hover {
+    background:linear-gradient(to right bottom,#E6007A, #BB148E);
+    color: white;
+}
+
+/* button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background:linear-gradient(to right bottom,#E6007A, #BB148E);
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+button::before {
+    transform: scaleX(0);
+}
+
+button:hover::before {
+    transform: scaleX(1);
+} */
+
+/* button::after {
+    color: #E6007A;
+    background-color: transparent;
+    border: 1px solid #E6007A;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-top: 30px;
+    content: "";
+    display: block;
+    width: 0px;
+    background:linear-gradient(to right bottom,#E6007A, #BB148E);
+}
+
+button:hover::after {
+    width: 100%;
+    transition: ease 0.3s;
+} */
+
+/* HEADER */
+header {
+    padding-bottom: 50px;
+}
+
+/* ICON */
+.icon {
+    padding: 20px 0;
+}
+
+.icon .col-lg-4 {
+    padding: 10px;
+}
+
+/* LEARN MORE */
+.learn-more {
+    padding: 60px 0;
+}
+
+.learn-more button {
+    margin-top: 20px;
+}
+
+/* POWERING */
+.powering {
+    background-color: black;
+    color: white;
+    padding: 60px 0;
+}
+
+/* LEARN MORE 2 */
+.learn-more2 {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.learn-more2 button {
+    color: white;
+    margin-top: 20px;
+}
+
+/* OPEN SOURCE */
+.open-source {
+    background:linear-gradient(to right bottom,#E6007A, #BB148E);
+    padding: 80px 0;
+    color: white;
+}
+
+/* .open-source img {
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} */
+
+.open-source h2 {
+    font-size: 40px;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.open-source p {
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.open-source img {
+    margin: 40px 0;
+}
+
+/* FOUNDED */
+.founded {
+    background: url("../Image/Web3-summit.jpg");
+    background-position: cover;
+    height: 900px;
+}
+
+.founded h2 {
+    font-size: 70px;
+    padding-top: 230px;
+    color: white;
+} 
+
+.founded button {
+    color: white;
+    margin-top: 40px;
+}
+
+/* BLOG */
+.blog h3 {
+    padding: 50px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.blog .card {
+    height: 540px;
+}
+
+.blog .card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+/* INVOLVE */
+.involve {
+    padding: 100px 0;
+}
+
+.involve u {
+    color: #E6007A;
+}
+
+.involve h2{
+    font-size: 40px;
+}
+.involve p, .involve button {
+    margin: 20px 0;
+}
+
+/* INDUSTRY */
+.industry {
+    background: url("../Image/Web3-summit.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    position: relative;
+}
+
+.industry .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}

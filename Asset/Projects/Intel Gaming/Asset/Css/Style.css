@@ -1,0 +1,241 @@
+html body {
+    background-image: url("../Image/Big-bg.png");
+}
+
+.big-badge {
+    background-color: #0071c5;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-style: 20px;
+    padding: 10px 25px;
+}
+
+small:hover {
+    color: white;
+    transition: 0.3s ease;
+}
+
+small {
+    text-decoration: none;
+    padding-left: 5px;
+    color: lightskyblue;
+    font-size: 15px;
+}
+
+/* NAVBAR */
+nav {
+    background-color: black;
+    opacity: 0.6;
+    backdrop-filter: blur(5px);
+}
+
+nav h1 {
+    color: lightskyblue;
+    font-size: 42px;
+}
+
+nav h2 {
+    color: lightskyblue;
+}
+
+#menu .nav-link {
+    font-size: 1.5rem;
+    color: lightskyblue;
+}
+
+#menu #end-nav .nav-link:hover {
+    color: #0071c5;
+    font-style: bold;
+}
+
+#menu button {
+    font-size: 1.2rem;
+}
+
+
+/* HEADER */
+/* .carousel  img{
+    height: 70vh;
+} */
+
+.carousel-inner .carousel-caption {
+    width: 480px;
+    height: 300px;
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+.carousel-inner .carousel-caption h3 {
+    font-size: 3rem;
+}
+
+.carousel #c-1 {
+    background-image: url("../Image/Banner-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+}
+
+.carousel #c-2 {
+    background-image: url("../Image/Banner-2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.carousel #c-3 {
+    background-image: url("../Image/Banner-3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.carousel #c-4 {
+    background-image: url("../Image/Banner-4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.carousel #c-5 {
+    background-image: url("../Image/Banner-5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+/* GIVEAWAYS */
+.giveaways {
+    background-color: #001b33;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.giveaways ul {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+/* .giveaways ul::-webkit-scrollbar {
+    display: none;
+} */
+
+.giveaways ul li {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* For media properties */
+    max-width: 250px;
+    min-width: 230px;
+}
+
+.giveaways ul li img {
+    width: 100%;
+}
+
+.giveaways ul li span {
+    background-color: #0071c5;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-style: 14px;
+    padding: 7px 15px;
+}
+
+.giveaways li:hover {
+    border: 2px solid #0071c5;
+}
+
+.giveaways li:hover span {
+    display: none;
+    transition: 1.3s ease;
+}
+
+.giveaways-footer {
+    border-top: 2px solid #003c71;
+    border-bottom: 2px solid #003c71;
+}
+
+.giveaways a {
+    text-decoration: none;
+    color: #0071c5;
+    padding-left: 10px;
+}
+
+/* OTHERS ANIMATION */
+@media(max-width: 1500px) {
+    .giveaways ul {
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+}
+
+/* NEWS */
+.news {
+    background-color: #001324;
+    padding-top: 20px;
+}
+
+.news .card {
+    background-color: #001c31;
+    color: white;
+    margin-bottom: 20px;
+    height: 370px;
+}
+
+.news .card:hover {
+    background-color: #003c71;
+    border: 1px solid #0071c5;
+
+}
+
+/* DEALS */
+.deals {
+    background-color: #001324;
+    padding-top: 20px;
+}
+
+.deals .card {
+    background-color: #001c31;
+    color: white;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+.deals .card:hover {
+    background-color: #003c71;
+    border: 1px solid #0071c5;
+
+}
+
+.deals .card .card-text {
+    color: #ccc;
+}
+
+/* NEVER-MISS */
+.never-miss {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url("../Image/Never-miss.jpg");
+    background-size: cover;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+}
+
+footer small {
+    color: white;
+}
+

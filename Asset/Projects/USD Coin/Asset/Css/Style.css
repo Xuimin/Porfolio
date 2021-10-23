@@ -1,0 +1,267 @@
+/* body {
+    font-family: 'Lato';
+} */
+
+/* NAVBAR */
+nav .collapse a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+nav .collapse a::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: linear-gradient(to right, #ea7629, #fced26);
+}
+
+nav .collapse a:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+}
+
+nav .collapse a:hover {
+    color: black;
+}
+
+/* HEADER */
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+header h5 {
+    color: #2e76ca;
+    font-weight: bold;
+}
+
+header h1 {
+    font-family: 'Lato';
+    font-size: 36px;
+}
+
+/* header {
+    padding-top: 150px;
+}
+
+header img {
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header #bottom {
+    margin-top: -55px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f5f9f5;
+} 
+
+header #bottom .bottom-text {
+    max-width: 720px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+header #bottom .bottom-text {
+    font-size: 30px;
+} 
+
+header #top {
+    padding: 0 15px;
+    max-width: 500px;
+    margin: 0 auto;
+} 
+
+header #top h1, h3 {
+    font-weight: lighter;
+} 
+
+header #top h3 {
+    color: #2775ca;
+    font-size: 18px
+} */
+
+/* BLOCKCHAIN */
+.blockchain {
+    background-color: #f5f9fc;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.blockchain h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #2e76ca;
+    font-family: 'Lato';
+}
+
+.blockchain p {
+    font-size: 16px;
+}
+
+/* BLOCKCHAIN2 */
+.blockchain2 {
+    margin-top: 30px;
+}
+
+.blockchain2 small a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.blockchain2 small a:hover {
+    color: #ea7629;
+    transition: 0.5s ease;
+}
+
+.blockchain p {
+    font-size: 16px;
+}
+
+/* FOUNDING */
+.founding {
+    background-color: #f9f9fa;
+    padding: 80px 0;
+}
+
+.founding h5 {
+    padding-bottom: 20px;
+}
+
+/* COLLAB */
+.collab {
+    background-color: #2775ca;
+    color: white;
+    padding: 80px 0;
+}
+
+.collab p {
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+.collab h3 {
+    font-family: 'Lato';
+    font-size: 36px;
+    padding: 10px;
+}
+
+.collab button {
+    border: 0;
+    background-color: #ea7629;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* COINS */
+.coins {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.coins h2 {
+    color: #2775ca;
+    font-family: 'Lato';
+    font-size: 40px;
+}
+
+.coins a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.coins a:hover {
+    color: #ea7629;
+    transition: 0.5s ease;
+}
+
+/* WALLETS */
+.wallets {
+    background-color: #f5f9fc;
+    padding: 50px 0;
+}
+
+.wallets .tab-content {
+    background-color: white;
+}
+
+.wallets .tab-content h3 {
+    color: #2775ca;
+    font-family: 'Lato';
+}
+
+.wallets button.nav-link {
+    background-color: #e7f0f9;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 15px 10px 15px 25px;
+    margin: 1px 0;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    width: 130px;
+}
+
+.wallets .nav-pills .nav-link.active {
+    background-color: #2775ca;
+    color: white;
+    width: 160px;
+    transition: 0.3s ease;
+}
+
+@media(max-width:767px) {
+    .wallets .d-flex {
+    flex-direction: column;
+    }
+}
+
+/* INVOLVE */
+.involve {
+    background-color: #f5f9fc;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.involve h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Lato';
+}
+
+.involve p {
+margin-top: 30px;
+font-size: 16px;
+}
+
+.involve button {
+    border: 0;
+    background-color: #ea7629;
+    color: white;
+    padding: 7px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #121e36;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

@@ -1,0 +1,199 @@
+* p {
+    font-family: "Roboto";
+}
+
+/* NAVBAR */
+nav #menu .nav-item .nav-link:hover {
+    color: #aad6fa;
+}
+
+/* HEADER */
+header #welcome div {
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 5px auto;
+    margin-top: 30px;
+}
+
+/* OTHER BUTTONS */
+.btn-outline-dark:hover {
+    box-shadow: 0 10px 10px 0 rgba(210, 210, 249,1);
+    background-color: transparent;
+    color: #5aa5fa;
+    border: 1px solid #5aa5fa;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 10px 10px 0 lightskyblue;
+}
+
+/* GET STARTED */
+.get-started .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 5rem;
+}
+
+#padding1 {
+    padding: 4rem;
+}
+
+/* WALLET */
+.wallet .container .row .d-inline-flex{
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #e6e6f7, #e9fbfa);
+    margin-bottom: 2rem;
+    margin: 15px auto;
+    outline-style: solid;
+    outline-color: #d2d2f9;
+    border-radius: 3px;
+}
+
+.wallet .col-lg-5:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 10px 4px lightgrey;
+}
+
+/* ABOUT */
+.about .container {
+    background-color: #ccfcff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+/* SYSTEM */
+.system .container {
+    background-color: #ffe3d3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+/* ASSET */
+.assets .container {
+    background-color: #e1fefa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+/* OPEN INTERNET */
+.open-internet .container {
+    background-color: #ffe5f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+/* CODE EXAMPLE */
+.code-example .container {
+    background-color: #e8e8fc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+.code-example table {
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.code-example table p {
+    margin-bottom: 0;
+}
+
+.code-example table td:hover {
+    background-color: #d1d1f9;
+}
+
+.code-example table th {
+    background-color: #f7f7f7;
+}
+
+.code-example table td {
+    background-color: white;
+}
+
+.code-example table .circle {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.code-example table #red {
+    background-color: #d46666;
+}
+
+.code-example table #yellow {
+    background-color: #ffe78e;
+}
+
+.code-example table #green {
+    background-color: #6fc4a0;
+}
+
+/* ETH TODAY */
+.eth-today .container .row .col-lg-6 {
+    border: 1px solid black;
+    padding: 40px;
+}
+
+#font {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.eth-today .container .row span {
+    font-size: 56px;
+}
+
+.eth-today .container .row i:hover {
+    color: cornflowerblue;
+}
+
+/* EXPLORE */
+.explore .container #shadow{
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #e6e6f7, #e9fbfa);
+    margin-bottom: 2rem;
+    margin: 15px auto;
+    outline-style: solid;
+    outline-color: #d2d2f9;
+    border-radius: 3px;
+}
+
+.explore .container .row {
+    height: fit-content;
+}
+
+.explore .container .row .d-inline-flex img {
+    height: 250px;
+    width: 350px;
+}
+
+.explore .container .row .d-flex p {
+    font-size: 10px;
+}
+
+.explore #shadow:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 10px 4px lightgrey;
+}
+
+/* CONTRIBUTE */
+.contribute .container {
+    background-image: linear-gradient(to right, #e6e6f7, #e9fbfa)
+}
+
+/* FOOTER */
+
